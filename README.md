@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Medium Scraper Pro
 
 Scrape Medium articles via Freedium mirror and save as **Markdown** and **JSON**.  
@@ -19,7 +18,3 @@ git clone https://github.com/<username>/medium-scraper.git
 cd medium-scraper
 pip install -r requirements.txt
 streamlit run app.py
-=======
-# medium-scraper
-Medium Articles
->>>>>>> cc7a7ad83f1ad65bc3862a1e28f8236df3fc7d82
