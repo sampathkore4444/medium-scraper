@@ -2,3 +2,5 @@ streamlit>=1.25.0
 requests>=2.30.0
 beautifulsoup4>=4.12.0
 markdownify>=0.9.5
+markdown
+qrcode[pil]
