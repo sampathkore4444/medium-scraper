@@ -63,7 +63,7 @@ st.markdown(
 st.markdown(
     "<p style='color:#6a5acd; font-size:18px;'>"
     "Scrape Medium articles and instantly export them as "
-    "<b>Markdown</b> and <b>JSON</b> — no paywalls, no storage."
+    "<b>HTML</b> — no paywalls, no storage."
     "</p>",
     unsafe_allow_html=True,
 )
