@@ -137,13 +137,13 @@ if st.button("✨ Scrape Article"):
                     mime="text/markdown",
                 )
 
-            with col2:
-                st.download_button(
-                    "📥 Download JSON",
-                    data=json_path.read_text(encoding="utf-8"),
-                    file_name=json_path.name,
-                    mime="application/json",
-                )
+            # with col2:
+            #     st.download_button(
+            #         "📥 Download JSON",
+            #         data=json_path.read_text(encoding="utf-8"),
+            #         file_name=json_path.name,
+            #         mime="application/json",
+            #     )
 
         except Exception as e:
             st.error(f"❌ Error: {e}")
